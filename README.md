@@ -1,4 +1,4 @@
-# DiabeatItFall2021
+# DiabeatItWinter2024
 
 This project was made with :heart: by the ENG100L GlobalTIES team. This is the latest iteration of the DiabeatIt project being implemented in Unity.
 
