@@ -3,8 +3,8 @@
  */
 
 /* Imports go below */ 
-using System.Collections;  // this interfaces that define various collections of objetcs like lists and arrays
-using System.Collections.Generic; // Allows access to generic classes like List<T>
+using System.Collections;  // this interfaces that define various collections of objetcs like lists and arrays : not used in this script 
+using System.Collections.Generic; // Allows access to generic classes like List<T> : not used in this script
 using UnityEngine; // essential for all Unity scripts 
 using UnityEngine.SceneManagement; // needed for loading and unloading scenes 
 
