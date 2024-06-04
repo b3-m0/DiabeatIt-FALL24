@@ -14,7 +14,7 @@ public class continueSFX : MonoBehaviour
 
   private void Awake() {
 
-    /* Line below finds all GameObjects with a specific tag. In this case, we searcg for "background music */ 
+    /* Line below finds all GameObjects with a specific tag. In this case, we search for "background music */ 
     GameObject[] musicObj = GameObject.FindGameObjectsWithTag("backgroundMusic");
     /* If there exists more than ONE backgroundMusic object, we get audio overlap. Therefore destroy duplicate */
     if( musicObj.Length > 1) {

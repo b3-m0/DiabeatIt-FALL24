@@ -600,6 +600,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Phys69.unity
     guid: c46a881e82afbce4b85962c499231225
   - enabled: 1
+    path: Assets/Scenes/startScene.unity
+    guid: 4d397f74a0c0c4e78b456deb7dbb3af1
+  - enabled: 1
     path: Assets/Scenes/Phys70.unity
     guid: 1ea2e3ccf7c80f741873d9ebea778998
   - enabled: 1
@@ -608,4 +611,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Phys47_5.unity
     guid: c260cb8dc8c733747a306a407dc74040
+  - enabled: 1
+    path: Assets/Scenes/beginningScene.unity
+    guid: 015c91c8597204164b793678fee28d57
   m_configObjects: {}
