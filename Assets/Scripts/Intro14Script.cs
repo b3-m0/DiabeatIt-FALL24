@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Intro9Script : MonoBehaviour
+public class Intro14Script : MonoBehaviour
 {
     public static string selectedAnswer;
-    public Intro9Script() {
+    public Intro14Script() {
         
     }
     public void setAnswer(string answer) {
@@ -14,9 +14,9 @@ public class Intro9Script : MonoBehaviour
         Debug.Log("Current answer: " + selectedAnswer);
     }
     public void loadNextScene() {
-        if (selectedAnswer == "rightAnswer") SceneManager.LoadScene("Intro10_1");
-        else if (selectedAnswer == "wrongAnswer") SceneManager.LoadScene("Intro10_2");
-        else SceneManager.LoadScene("Intro11");
+        if (selectedAnswer == "rightAnswer") SceneManager.LoadScene("Intro15_1");
+        else if (selectedAnswer == "wrongAnswer") SceneManager.LoadScene("Intro15_2");
+        else SceneManager.LoadScene("Intro16");
     }
     // Start is called before the first frame update
     void Start()
